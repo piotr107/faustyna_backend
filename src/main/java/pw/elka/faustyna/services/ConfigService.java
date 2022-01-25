@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class ConfigService {
 
 	public void updateConfig(String config) throws IOException {
-		BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/piotr/GitHub/faustyna_backend/src/main/resources/menu.json"));
+		BufferedWriter writer = new BufferedWriter(new FileWriter("/resources/menu.json"));
 		writer.write(config);
 
 		writer.close();
