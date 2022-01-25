@@ -1,0 +1,103 @@
+{
+    "title": "Faustyna.pl",
+    "mainImageUrl": "menu/img_main_header.jpg",
+    "items": [
+        {
+            "name": "news",
+            "text": "Aktualności",
+            "imageUrl": "menu/img_aktualnosci.png",
+            "type": "news_menu"
+        },
+        {
+            "name": "diary",
+            "text": "Z \"Dzienniczka\" św. Siostry Faustyny",
+            "imageUrl": "menu/img_dzienniczek.png",
+            "type": "quotation_page",
+            "apiUrl": "https://www.faustyna.pl/zmbm/api/?lang=pl&action=sentence"
+        },
+        {
+            "name": "painting",
+            "text": "Nabożeństwo do Miłosierdzia Bożego",
+            "imageUrl": "menu/img_obraz.png",
+            "type": "conf_menu"
+        },
+        {
+            "name": "faustyna",
+            "text": "Święta Siostra Faustyna",
+            "imageUrl": "menu/img_faustyna.png",
+            "type": "conf_menu"
+        },
+        {
+            "name": "sanctuary",
+            "text": "Sanktuarium w Krakowie-Łagiewnikach",
+            "imageUrl": "menu/img_sanktuarium.png",
+            "type": "conf_menu"
+        },
+        {
+            "name": "stream",
+            "text": "Transmisje",
+            "imageUrl": "menu/img_transmisja.png",
+            "type": "stream_page"
+        },
+        {
+            "name": "gallery",
+            "text": "Galeria",
+            "imageUrl": "menu/img_galeria.png",
+            "type": "gallery_menu"
+        },
+        {
+            "name": "prayer",
+            "text": "Koronka za konających",
+            "imageUrl": "menu/img_koronka.png",
+            "type": "sms"
+        },
+        {
+            "name": "shop",
+            "text": "Sklep \"Misericorida\"",
+            "imageUrl": "menu/img_sklep.png",
+            "type": "link",
+            "url": "https://www.misericordia.faustyna.net/"
+        },
+        {
+            "name": "facebook",
+            "text": "Facebook",
+            "imageUrl": "menu/img_facebook.png",
+            "type": "link",
+            "url": "https://www.misericordia.faustyna.net/"
+        },
+        {
+            "name": "youtube",
+            "text": "Filmy, Rozmowy, Wywiady",
+            "imageUrl": "menu/img_youtube.png",
+            "type": "link",
+            "url": "https://www.misericordia.faustyna.net/"
+        },
+        {
+            "name": "support",
+            "text": "Wsparcie",
+            "imageUrl": "menu/img_wsparcie.png",
+            "type": "conf_menu"
+        },
+        {
+            "name": "more",
+            "text": "Więcej",
+            "imageUrl": "menu/img_strona.png",
+            "type": "link",
+            "url": "https://www.misericordia.faustyna.net/"
+        }
+    ],
+    "conf_menu": {
+        "painting": [
+            {
+                "text": "Istota",
+                "imageUrl": "menu/img_istota.png",
+                "pageId": "istota"
+            },
+            {
+                "text": "Obraz",
+                "imageUrl": "menu/img_nabozenstwo_obraz.png",
+                "pageId": "obraz"
+            }
+        ]
+    }
+}
